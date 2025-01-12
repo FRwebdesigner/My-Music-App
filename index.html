@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Music App</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>My Music App</title>
+    <link rel="shortcut icon" href="img/tune-removebg-preview.png" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -13,99 +14,63 @@
             <h1>Playlist</h1>
             <div class="playlist">
                 <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i> Playlist</h4>
-                <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i> Last Listening</h4>
-                <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i> Recommended</h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i> Last Listening</h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i> Recommended</h4>
             </div>
             <div class="menu_song">
                 <li class="songItem">
-                    <div class="img_play">
-                        <img src="img/71D5S3PHRmL.jpg" alt="COADF">
-                        <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
-                    </div>
-                    <h5> Hung Up
+                    <span>01</span>
+                        <img src="img/1.jpg" alt="COADF">
+                    <h5> HeartBreakCity
                         <br>
                         <div class="subtitle">Madonna</div>
                     </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
                 </li>
                 <li class="songItem">
-                    <div class="img_play">
-                        <img src="img/1235006.jpg" alt="COADF">
-                        <i class="bi playListPlay bi-play-circle-fill" id="2"></i>
-                    </div>
-                    <h5> Frozen
+                    <span>02</span>
+                        <img src="img/2.jpg" alt="COADF">
+                    <h5> I'm Addicted
                         <br>
                         <div class="subtitle">Madonna</div>
                     </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="2"></i>
                 </li>
                 <li class="songItem">
-                    <div class="img_play">
-                        <img src="img/1900x1900.believe.jpg" alt="COADF">
-                        <i class="bi playListPlay bi-play-circle-fill" id="3"></i>
-                    </div>
-                    <h5> Believe
-                        <br>
-                        <div class="subtitle">Cher</div>
-                    </h5>
-                </li>
-                <li class="songItem">
-                    <div class="img_play">
-                        <img src="img/1200x1200bf-60.jpg" alt="COADF">
-                        <i class="bi playListPlay bi-play-circle-fill" id="4"></i>
-                    </div>
-                    <h5> Song For The Lonely
-                        <br>
-                        <div class="subtitle">Cher</div>
-                    </h5>
-                </li>
-                <li class="songItem">
-                    <div class="img_play">
-                        <img src="img/madonna-true-blue-album-cover.jpg" alt="COADF">
-                        <i class="bi playListPlay bi-play-circle-fill" id="5"></i>
-                    </div>
-                    <h5> Live To  Tell
+                    <span>03</span>
+                        <img src="img/3.jpg" alt="COADF">
+                    <h5> Take A Bow
                         <br>
                         <div class="subtitle">Madonna</div>
                     </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="3"></i>
                 </li>
                 <li class="songItem">
-                    <div class="img_play">
-                        <img src="img/E4QwJ4cXoAQ2151.jpg" alt="COADF">
-                        <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
-                    </div>
-                    <h5> If I Could Turn Back Time
-                        <br>
-                        <div class="subtitle">Cher</div>
-                    </h5>
-                </li>
-                <li class="songItem">
-                    <div class="img_play">
-                        <img src="img/91etw+5xmsL._UF1000,1000_QL80_.jpg" alt="COADF">
-                        <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
-                    </div>
-                    <h5> Like A Prayer
+                    <span>04</span>
+                        <img src="img/4.jpg" alt="COADF">
+                    <h5> Rain
                         <br>
                         <div class="subtitle">Madonna</div>
                     </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="4"></i>
                 </li>
                 <li class="songItem">
-                    <div class="img_play">
-                        <img src="img/1900x1900-000000-80-0-0.jpg" alt="COADF">
-                        <i class="bi playListPlay bi-play-circle-fill" id="8"></i>
-                    </div>
-                    <h5> Material Girl
+                    <span>05</span>
+                        <img src="img/5.jpg" alt="COADF">
+                    <h5> Lucky Star
                         <br>
                         <div class="subtitle">Madonna</div>
                     </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="5"></i>
                 </li>
                 <li class="songItem">
-                    <div class="img_play">
-                        <img src="img/madonna-true-blue-album-cover.jpg" alt="COADF">
-                        <i class="bi playListPlay bi-play-circle-fill" id="9"></i>
-                    </div>
-                    <h5> La Isla Bonita
+                    <span>06</span>
+                        <img src="img/6.jpg" alt="COADF">
+                    <h5> Future
                         <br>
                         <div class="subtitle">Madonna</div>
                     </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
                 </li>
             </div>
         </div>
@@ -123,7 +88,7 @@
                     <input type="text" placeholder="Search Music...">
                 </div>
                 <div class="user">
-                    <img src="img/user-profile-icon-free-vector.jpg" alt="User" title="USER">
+                    <img src="img/user.jpg" alt="User" title="USER">
                 </div>
             </nav>
             <div class="content">
@@ -153,8 +118,8 @@
                 <div class="pop_song">
                     <li class="songItem">
                         <div class="img_play">
-                            <img src="img/71D5S3PHRmL.jpg" alt="COADF">
-                            <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+                            <img src="img/7.jpg" alt="COADF">
+                            <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
                         </div>
                         <h5> Hung Up
                             <br>
@@ -163,58 +128,8 @@
                     </li>
                     <li class="songItem">
                         <div class="img_play">
-                            <img src="img/1235006.jpg" alt="COADF">
-                            <i class="bi playListPlay bi-play-circle-fill" id="2"></i>
-                        </div>
-                        <h5> Frozen
-                            <br>
-                            <div class="subtitle">Madonna</div>
-                        </h5>
-                    </li>
-                    <li class="songItem">
-                        <div class="img_play">
-                            <img src="img/1900x1900.believe.jpg" alt="COADF">
-                            <i class="bi playListPlay bi-play-circle-fill" id="3"></i>
-                        </div>
-                        <h5> Believe
-                            <br>
-                            <div class="subtitle">Cher</div>
-                        </h5>
-                    </li>
-                    <li class="songItem">
-                        <div class="img_play">
-                            <img src="img/1200x1200bf-60.jpg" alt="COADF">
-                            <i class="bi playListPlay bi-play-circle-fill" id="4"></i>
-                        </div>
-                        <h5> Song For The Lonely
-                            <br>
-                            <div class="subtitle">Cher</div>
-                        </h5>
-                    </li>
-                    <li class="songItem">
-                        <div class="img_play">
-                            <img src="img/madonna-true-blue-album-cover.jpg" alt="COADF">
-                            <i class="bi playListPlay bi-play-circle-fill" id="5"></i>
-                        </div>
-                        <h5> Live To  Tell
-                            <br>
-                            <div class="subtitle">Madonna</div>
-                        </h5>
-                    </li>
-                    <li class="songItem">
-                        <div class="img_play">
-                            <img src="img/E4QwJ4cXoAQ2151.jpg" alt="COADF">
-                            <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
-                        </div>
-                        <h5> If I Could Turn Back Time
-                            <br>
-                            <div class="subtitle">Cher</div>
-                        </h5>
-                    </li>
-                    <li class="songItem">
-                        <div class="img_play">
-                            <img src="img/91etw+5xmsL._UF1000,1000_QL80_.jpg" alt="COADF">
-                            <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
+                            <img src="img/8.jpg" alt="COADF">
+                            <i class="bi playListPlay bi-play-circle-fill" id="8"></i>
                         </div>
                         <h5> Like A Prayer
                             <br>
@@ -223,8 +138,38 @@
                     </li>
                     <li class="songItem">
                         <div class="img_play">
-                            <img src="img/1900x1900-000000-80-0-0.jpg" alt="COADF">
-                            <i class="bi playListPlay bi-play-circle-fill" id="8"></i>
+                            <img src="img/9.jpg" alt="COADF">
+                            <i class="bi playListPlay bi-play-circle-fill" id="9"></i>
+                        </div>
+                        <h5> What It Feels Like For A Girl
+                            <br>
+                            <div class="subtitle">Madonna</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/10.jpg" alt="COADF">
+                            <i class="bi playListPlay bi-play-circle-fill" id="10"></i>
+                        </div>
+                        <h5> Song For The Lonely
+                            <br>
+                            <div class="subtitle">Madonna</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/11.jpg" alt="COADF">
+                            <i class="bi playListPlay bi-play-circle-fill" id="11"></i>
+                        </div>
+                        <h5> Believe
+                            <br>
+                            <div class="subtitle">Cher</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/12.jpg" alt="COADF">
+                            <i class="bi playListPlay bi-play-circle-fill" id="12"></i>
                         </div>
                         <h5> Material Girl
                             <br>
@@ -233,10 +178,60 @@
                     </li>
                     <li class="songItem">
                         <div class="img_play">
-                            <img src="img/madonna-true-blue-album-cover.jpg" alt="COADF">
-                            <i class="bi playListPlay bi-play-circle-fill" id="9"></i>
+                            <img src="img/13.jpg" alt="COADF">
+                            <i class="bi playListPlay bi-play-circle-fill" id="13"></i>
                         </div>
-                        <h5> La Isla Bonita
+                        <h5> Frozen
+                            <br>
+                            <div class="subtitle">Madonna</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/14.jpg" alt="COADF">
+                            <i class="bi playListPlay bi-play-circle-fill" id="14"></i>
+                        </div>
+                        <h5> Nothing Fails
+                            <br>
+                            <div class="subtitle">Madonna</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/15.jpg" alt="COADF">
+                            <i class="bi playListPlay bi-play-circle-fill" id="15"></i>
+                        </div>
+                        <h5> Dark Horse
+                            <br>
+                            <div class="subtitle">Katy Perry</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/16.jpg" alt="COADF">
+                            <i class="bi playListPlay bi-play-circle-fill" id="16"></i>
+                        </div>
+                        <h5> If I Could Turn Back Time
+                            <br>
+                            <div class="subtitle">Cher</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/17.jpg" alt="COADF">
+                            <i class="bi playListPlay bi-play-circle-fill" id="17"></i>
+                        </div>
+                        <h5> Live To Tell
+                            <br>
+                            <div class="subtitle">Madonna</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="img/18.jpg" alt="COADF">
+                            <i class="bi playListPlay bi-play-circle-fill" id="18"></i>
+                        </div>
+                        <h5> She's Not Me
                             <br>
                             <div class="subtitle">Madonna</div>
                         </h5>
@@ -253,40 +248,40 @@
                 </div>
                 <div class="item">
                     <li>
-                       <img src="img/png-clipart-madonna-madonna-red-music-stars-madonna.png" alt="Artist 1" title="Madonna">
+                       <img src="img/madonna.png" alt="Artist 1" title="Madonna">
                     </li>
                     <li>
-                        <img src="img/187498910_10159288321334549_7542786978551836006_n.jpg" alt="Artist 2" title="Cher">
+                        <img src="img/cher.jpg" alt="Artist 2" title="Cher">
                      </li>
                      <li>
-                        <img src="img/58uyvhwt7zc71.jpg" alt="Artist 3" title="Coldplay">
+                        <img src="img/coldplay.jpg" alt="Artist 3" title="Coldplay">
                      </li>
                      <li>
-                        <img src="img/music-icons-adele-iv-joost-hogervorst.jpg" alt="Artist 4" title="Adele">
+                        <img src="img/adele.jpg" alt="Artist 4" title="Adele">
                      </li>
                      <li>
-                        <img src="img/27ac784bcfc797b9fe20016fe3f8b276.jpg" alt="Artist 5" title="Katy Perry">
+                        <img src="img/katy.jpg" alt="Artist 5" title="Katy Perry">
                      </li>
                      <li>
-                        <img src="img/gettyimages-1071858224.jpg" alt="Artist 6" title="Rod Stewart">
+                        <img src="img/stewart.jpg" alt="Artist 6" title="Rod Stewart">
                      </li>
                      <li>
-                        <img src="img/06c5d8f2492ac0b6a2578dcf0710c0f3.jpg" alt="Artist 7" title="Queen">
+                        <img src="img/queen.jpg" alt="Artist 7" title="Queen">
                      </li>
                      <li>
-                         <img src="img/4eb827bcba03c3ef511edb3cd72dd6f2.jpg" alt="Artist 8" title="ABBA">
+                         <img src="img/abba.jpg" alt="Artist 8" title="ABBA">
                       </li>
                       <li>
-                         <img src="img/BwZ6qiTIQAAn6KG.jpg" alt="Artist 9" title="Lady Gaga">
+                         <img src="img/gaga.jpg" alt="Artist 9" title="Lady Gaga">
                       </li>
                       <li>
-                         <img src="img/1353e6a25f91eea4c65d8968324b2156.jpg" alt="Artist 10" title="YOASOBI">
+                         <img src="img/yoasobi.jpg" alt="Artist 10" title="YOASOBI">
                       </li>
                       <li>
-                         <img src="img/filters_quality(95)format(webp).jpg" alt="Artist 11" title="fripSide">
+                         <img src="img/fripside.jpg" alt="Artist 11" title="fripSide">
                       </li>
                       <li>
-                         <img src="img/filters_quality(95)format(webp) (1).jpg" alt="Artist 12" title="ClariS">
+                         <img src="img/claris.jpg" alt="Artist 12" title="ClariS">
                       </li>
                 </div>
                 </div>
@@ -299,8 +294,8 @@
                 <div class="wave1"></div>
                 <div class="wave1"></div>
             </div>
-            <img src="img/71D5S3PHRmL.jpg" alt="COADF" id="poster">
-            <h5>Hung Up <br>
+            <img src="img/1.jpg" alt="COADF" id="poster_master_play">
+            <h5 id="title">HeartBreakCity<br>
                 <div class="subtitle">Madonna</div>
             </h5>
             <div class="icon">
@@ -317,13 +312,13 @@
             <span id="currentEnd">0:00</span>
 
             <div class="vol">
-                <i class="bi bi-volume-down-fill"></i>
+                <i class="bi bi-volume-down-fill" id="vol_icon"></i>
                 <input type="range" id="vol" min="0" value="30" max="100"> 
                 <div class="vol_bar"></div>
                 <div class="dot" id="vol_dot"></div>
             </div>
         </div>
     </header>
-    <script src="file.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
