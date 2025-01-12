@@ -4,13 +4,13 @@ const music = new Audio('10.mp3');
 
 const songs = [
     {
-        id:'1',
+        id:"1",
         songName:` HeartBreakCity <br>
         <div class="subtitle">Madonna</div>`,
         poster: "img/1.jpg"
     },
     {
-        id:'2',
+        id:"2",
         songName:` I'm Addicted <br>
         <div class="subtitle">Madonna</div>`,
         poster: "img/2.jpg"
